@@ -17,6 +17,7 @@
              Name: Module5 Bob
              Module: 5
           wait: yes
+          assign_public_ip: yes
           vpc_subnet_id: "{{ public_subnet.subnet.id }}"
           exact_count: 1
           count_tag:
@@ -31,6 +32,7 @@
              Name: Module5 Mary
              Module: 5 
           wait: yes
+          assign_public_ip: yes
           vpc_subnet_id: "{{ public_subnet.subnet.id }}"
           exact_count: 1
           count_tag:
@@ -45,6 +47,7 @@
              Name: Module5 Sally
              Module: 5
           wait: yes
+          assign_public_ip: yes
           vpc_subnet_id: "{{ public_subnet.subnet.id }}"
           exact_count: 1
           count_tag:
